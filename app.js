@@ -1,4 +1,4 @@
-//! Chater no 21 to 25 start
+//! Chapter no 21 to 25 start
 
 //? Question no 1 start
 
@@ -341,4 +341,123 @@
 
 //? Question no 18 end
 
-//! Chater no 21 to 25 end
+//! Chapter no 21 to 25 end
+
+//! Chapter no 26 to 30 start
+
+//? Question no 1 start
+
+// var num = Number(prompt("Enter a decimal number"));
+
+// document.write("Number:", num);
+
+// document.write("<br>");
+
+// document.write("Round Off Value:", Math.round(num));
+
+// document.write("<br>");
+
+// document.write("floor Value:", Math.floor(num));
+
+// document.write("<br>");
+
+// document.write("ceil Value:", Math.ceil(num));
+
+//? Question no 1 end
+
+//? Question no 2 start
+
+
+// var num = Number(prompt("Enter a negative decimal number"));
+
+// document.write("Number:", num);
+
+// document.write("<br>");
+
+// document.write("Round Off Value:", Math.round(num));
+
+// document.write("<br>");
+
+// document.write("floor Value:", Math.floor(num));
+
+// document.write("<br>");
+
+// document.write("ceil Value:", Math.ceil(num));
+
+//? Question no 2 end
+
+//? Question no 3 start
+
+// var num = Number(prompt("Enter a number"));
+
+// var absoluteValue = Math.abs(num);
+
+// document.write("The absolute of ", num , " is ", absoluteValue);
+
+//? Question no 3 end
+
+//? Question no 4 start
+
+// var randomNum = Math.round(Math.random() * 6);
+
+// document.write("Random dice number is ", randomNum);
+
+//? Question no 4 end
+
+//? Question no 5 start
+
+// var userGuess = prompt("Guess wheather it`s Head OR Tail");
+
+// userGuess = userGuess.toLowerCase();
+
+// var Guess = Math.round(Math.random() * 3);
+
+// if (Guess == 2) {
+//     Guess = "head";
+//     if (userGuess == Guess) {
+//         document.write("Correct! it`s:", Guess);
+//     }
+// } else if (Guess == 1) {
+//     Guess = "tail";
+//     if (userGuess == Guess) {
+//         document.write("Correct! it`s:", Guess);
+//     }
+// } else {
+//     document.write("Try again");
+// }
+
+//? Question no 5 end
+
+//? Question no 6 start
+
+// var randomNum = Math.round(Math.random() * 100);
+
+// document.write("Random number between 1 to 100: ", randomNum);
+
+//? Question no 6 end
+
+//? Question no 7 start
+
+
+
+//? Question no 7 end
+
+//? Question no 8 start
+
+// var userNum = Number(prompt("Enter a number between 1 to 10"));
+
+// var secretNum = Math.round(Math.random() * 10);
+
+// if (userNum == secretNum) {
+//     document.write("Correct!")
+// } else if (userNum == secretNum - 1) {
+//     document.write("Close Enough");
+// } else if (userNum == secretNum + 1) {
+//     document.write("Close Enough");
+// } else {
+//     document.write("Try agin");
+// }
+
+//? Question no 8 end
+
+//! Chapter no 21 to 25 end
