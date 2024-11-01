@@ -698,3 +698,296 @@
 //? Question no 14 end
 
 //! Chapter no 31 to 34 end
+
+//! Chapter no 35 to 38 start
+
+//? Question no 1 start
+
+// function dateAndtime(time) {
+//     time = new Date();
+//     return time;
+// }
+
+// document.write(dateAndtime());
+
+//? Question no 1 end 
+
+//? Question no 2 start
+
+// function userName(firstName,lastName) {
+//     return firstName + " " + lastName;
+// }
+
+// var firstName = prompt("Enter your first name");
+// var lastName = prompt("Enter your last name");
+
+// document.write("Welcome ",userName(firstName,lastName));
+
+//? Question no 2 end
+
+//? Question no 3 start
+
+// function Sum(a, b) {
+//     return a + b;
+// }
+
+// var a = Number(prompt("Enter a number"));
+
+// var b = Number(prompt("Enter a number"));
+
+// document.write("The sum of ", a, " and ", b, " is: ", Sum(a, b));
+
+//? Question no 3 end
+
+//? Question no 4 start
+
+// function Calculator(operator, num1, num2,) {
+//     if (operator == "+") {
+//         return num1 + num2;
+//     } else if (operator == "-") {
+//         return num1 - num2;
+//     } else if (operator == "*") {
+//         return num1 * num2;
+//     } else if (operator == "/") {
+//         return num1 / num2;
+//     } else {
+//         return alert("The value you enter is incorrect!");
+//     }
+// }
+
+// var operator = prompt("Enter the operation +, - , * , /");
+
+// var num1 = Number(prompt("Enter the first number"));
+
+// var num2 = Number(prompt("Enter the second number"));
+
+// document.write(Calculator(operator, num1, num2));
+
+//? Question no 4 end
+
+//? Question no 5 start
+
+// function Square(num) {
+//     return (num ** 2);
+// }
+
+// var num = Number(prompt("Enter a number"));
+
+// document.write("The square of " + num + " is: " + Square(num));
+
+//? Question no 5 end
+
+//? Question no 6 start
+
+// function factorial(n) {
+//     if (n < 0) return "Factorial is not defined for negative numbers";
+
+//     let result = 1;
+//     for (let i = 2; i <= n; i++) {
+//       result *= i;
+//     }
+//     return result;
+//   }
+
+//   document.write(factorial(Number(prompt("Enter a number"))));
+
+//? Question no 6 end
+
+//? Question no 7 start
+
+// function endAndStart(num1, num2, result) {
+//     if (num1 < 0 || num2 < 0) {
+//         return "Enter a positive number";
+//     }
+//     for (var i = num1; i <= num2; i++) {
+//         result.push(i);
+//     }
+//     return result;
+// }
+
+// var num1 = Number(prompt("Enter a starting number"));
+
+// var num2 = Number(prompt("Enter a ending number"));
+
+// document.write(endAndStart(num1, num2,[]));
+
+//? Question no 7 end
+
+//? Question no 8 start
+
+// function calculateHypotenuse() {
+//     let perpendicular = Number(prompt("Enter the value of perpendicular"));
+//     let base = Number(prompt("Enter the value of base"));
+
+//     function calculateSquare(value) {
+//         return value ** 2;
+//     }
+
+//     let baseAns = calculateSquare(base);
+//     let perpendicularAns = calculateSquare(perpendicular);
+
+//     let hypotenuse = Math.round(Math.sqrt(perpendicularAns + baseAns));
+
+//     return hypotenuse;
+// }
+
+// let result = calculateHypotenuse();
+
+// document.write("Hypotenuse " ,result)
+
+//? Question no 8 end
+
+//? Question no 9 start
+
+// function areaOftriangle(width, height) {
+//     var A = width * height;
+//     return A;
+// }
+
+// var width = 35;
+
+// document.write("Area of triangle is " +" " + areaOftriangle(width, 20));
+
+//? Question no 9 end
+
+//? Question no 10 start
+
+// function isPalindrome() {
+//     let flag = false;
+//     let a = prompt("Enter a word");
+//     a = a.toLowerCase();
+//     let b = "";
+//     if (a.length == 0) {
+//         return "Enter a word";
+//     }
+//     for (let i = a.length - 1; i >= 0; i--) {
+//         b += a[i];
+//         if (a == b) {
+//             flag = true;
+//         }
+//     }
+//     if (flag) {
+//         return "Is palinderome";
+//     } else {
+//         return "Is not palinderome";
+//     }
+// }
+
+// alert(isPalindrome());
+
+//? Question no 10 end
+
+//? Question no 11 start
+
+// function capitalizeWords(str) {
+//     let result = ""; 
+//     let capitalizeNext = true; 
+
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] === " ") {
+//             result += str[i];
+//             capitalizeNext = true;
+//         } else if (capitalizeNext) {
+//             result += str[i].toUpperCase(); 
+//             capitalizeNext = false;  
+//         } else {
+//             result += str[i]; 
+//         }
+//     }
+
+//     return result;
+// }
+
+
+// console.log(capitalizeWords('the quick brown fox'));
+
+//? Question no 11 end
+
+//? Question no 12 start
+
+// document.write("Expected string: Web Development Tutorial");
+
+// function longestWord(str, singleWordlength) {
+// singleWordlength = str.split(" ");
+//     if (singleWordlength[0].length > singleWordlength[1].length && singleWordlength[0].length > singleWordlength[2].length) {
+//         singleWordlength = singleWordlength[0];
+//     } else if (singleWordlength[1].length > singleWordlength[2].length) {
+//         singleWordlength = singleWordlength[1];
+//     }else{
+//         singleWordlength = singleWordlength[2];
+//     }
+//     return singleWordlength;
+// }
+
+// document.write("<br>");
+
+// document.write("Expected output: ",longestWord("Web Development Tutorial"));
+
+//? Question no 12 end
+
+//? Question no 13 start
+
+// function wordOccurrence(str, word, count) {
+//     document.write("Input string: ", str);
+
+//     document.write("<br>");
+
+//     document.write("Input word: ", word);
+
+//     document.write("<br>");
+
+//     count = 0;
+
+//     word = word.toLowerCase();
+
+//     str = str.toLowerCase();
+
+//     for (var i = 0; i < str.length; i++) {
+//         if (str[i] == word) {
+//             count++;
+//         }
+//     }
+
+//     return count;
+// }
+
+// var  str = prompt("Enter a word");
+
+// var word = prompt("Enter a letter");
+
+// document.write("The number of time this " + word + " occured in this string " + str + " " + wordOccurrence(str,word) + " times");
+
+//? Question no 13 end
+
+//? Question no 14 start
+
+// var userInput = prompt("Enter wahat operation you want to perform 'Circumference' OR 'Area' of circle");
+
+// userInput = userInput.toLowerCase();
+
+// if (userInput == "circumference") {
+//     function calcCircumference(r) {
+//         let CircumferenceOfcircle = 2 * Math.PI * r;
+//         return CircumferenceOfcircle.toFixed(2);
+//     }
+
+//     var r = Number(prompt("Enter the radius"));
+
+//     document.write("The circumference of circle is: ", calcCircumference(r));
+// } else if (userInput == "area") {
+//     function calcArea(r) {
+//         let AreaOfcircle = Math.PI * (r ** 2);
+//         return AreaOfcircle.toFixed(2);
+//     }
+
+//     var r = Number(prompt("Enter the radius"));
+
+//     document.write("The area of circle is: ", calcArea(r));
+// } else {
+//     alert("Enter the operation");
+// }
+
+//? Question no 14 end
+
+
+//! Chapter no 35 to 38 end
